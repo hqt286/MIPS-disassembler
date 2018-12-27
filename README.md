@@ -1,3 +1,4 @@
+```
 A disassembler is the inverse of an assembler: It reads the binary (formatted as hexadecimal)instructions executed by a MIPS processor and converts them to symbolic assembly source code read and written by people.  Manual disassembly is very tedious and error prone, so it makes sense to write a disassembler program.   The input to the disassembler is a text file named *.obj, where * is the name of a machine code file in the same folder as the disassembler executable. The output of the disassembler is another text file called *.s (same name but different extension). The executable will be named myDisassembler and is called from the console as follows:
 
 myDisassembler *.obj
@@ -17,3 +18,4 @@ Your grade will be mostly based on the correctness of the object code in the out
     * myDisassembler should read a line at a time and print an error message to the command line for each line of the machine code file that contains an error.  In other words, myDisassembler should report all errors found in an input file with error messages to the command line and then exit without producing an output file.  The error checking can be done on the first pass.  Examples of errors are: lines that don’t contain 8 hexadecimal digits, or encountering an instruction that cannot be disassembled. The error message should say “Cannot disassemble <string> at line <number>”. 
 
     * Immediate values in the myDisassembler output should appear as signed decimal numbers, and registers should be mapped to the names appearing in the Name (leftmost) column of the Green Card’s “Register Name, Number, Use, Call Convention” table (e.g. $t0, $s0).
+```

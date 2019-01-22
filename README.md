@@ -4,8 +4,6 @@ myDisassembler *.obj
 
 This command will have myDisassembler read *.obj and generate *.s.  If there is an existing *.s file simply overwrite it.
 
-Your grade will be mostly based on the correctness of the object code in the output file *.s. You can use the console to print out messages for debugging purposes. The myDisassembler requirements are:
-
 * The input of myDisassembler is a text file containing MIPS machine code.  Each line contains a 32-bit instruction encoded as 8 hexadecimal digits without a leading “0x”.  Since object code is relocatable you don’t really need to know the absolute addresses of the instructions.
 
 * The output of myDisassembler is a text file containing one line per instruction. Each line will contain the MIPS assembly language corresponding to the object code, possibly preceded by a label on the previous line if and only if that instruction is the target of a branch instruction.
